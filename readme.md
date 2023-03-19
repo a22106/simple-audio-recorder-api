@@ -4,8 +4,7 @@ The Simple Audio Recorder API is a Node.js application that allows you to upload
 ## Prerequisites
 Before you begin, ensure you have the following software installed on your computer:
 
-1. Node.js (version 12.x or higher)
-2. npm (usually installed with Node.js)
+1. python3
 
 ## Installation
 1. Clone the repository or download the source code:
