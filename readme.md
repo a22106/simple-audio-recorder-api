@@ -19,18 +19,18 @@ cd simple-audio-recorder-api
 
 3. Install the required dependencies:
 ```bash
-npm install
+pip install -r requirements.txt
 ```
 
 ## Running the API
 1. To start the API server, run the following command:
 ```bash
-npm start
+python app.py
 ```
 
-2. The server will start listening on the specified port (default is 3000). You should see a message indicating the server is running, along with your public IP address and the port number:
+2. The server can start with the host 0.0.0.0 and a specific port
 ```
-Server is running on xx.xx.xx.xx:3000
+python app.py --host 0.0.0.0 --port 3000
 ```
 
 ## Usage
